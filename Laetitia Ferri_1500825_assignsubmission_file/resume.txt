@@ -1,0 +1,38 @@
+Résumé du modèle
+----------------
+
+Environnement :
+-------------
+30 lignes / 30 colonnes
+
+Agents :
+------
+Nom :souche1
+Probabilité de déplacement : 50
+Effectif initial : 100
+
+Nom :souche2
+Probabilité de déplacement : 50
+Effectif initial : 100
+
+
+Règles :
+------
+Nom de la règle :reproduction souche1 
+Type : réaction entre agents 
+Probabilité : 25%
+Réactifs : souche1
+Produits : souche1
+
+Nom de la règle :reproduction souche2 
+Type : réaction entre agents 
+Probabilité : 25%
+Réactifs : souche2
+Produits : souche2
+
+Nom de la règle :mort antibiotique
+Type : réaction entre agents 
+Probabilité : 25%
+Réactifs : souche1
+Produits : souche1
+
